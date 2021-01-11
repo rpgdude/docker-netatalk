@@ -59,7 +59,7 @@ docker run --detach \
     --env AFP_PASSWORD=secret \
     --env AFP_UID=$(id -u) \
     --env AFP_GID=$(id -g) \
-    cptactionhank/netatalk:latest
+    rpgdude/netatalk2:latest
 ```
 
 This replaces all occurrences of `%USER%` in `afp.conf` with `AFP_USER`
