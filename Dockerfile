@@ -20,6 +20,8 @@ WORKDIR netatalk-${NETATALK_VERSION}
 RUN ./configure \
         --prefix=/usr \
         --sysconfdir=/etc \
+        --enable-debian \
+        --enable-ddp \
         --with-init-style=debian-systemd \
         --without-libevent \
         --without-tdb \
